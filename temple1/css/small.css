@@ -8,25 +8,25 @@ body {
 }
 
 header {
-    background-color: #C6C6C6;
+    background-color: #DAEEE3;
     padding: 1rem 2%;
 }
 
 header h1{
     margin: 0;
-    color: #ffffff;
+    color: #3C6D52;
 }
 
 header h2 {
     margin: 0;
-    color: #fff;
+    color: #3C6D52;
 }
 
 
 
 /* NAVIGATION BAR */
 nav {
-    background-color: #5C90B2;
+    background-color: #78C199;
 }
 
 nav ul {margin: 0; padding: 0;}
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #A7C6DA;
+    background-color: #B5DDC7;
 }
 
 
@@ -53,7 +53,7 @@ main {
 }
 
   
-main h1 {color: #5C90B2}
+main h1 {color: #78C199}
 main h2 {color: #333;}
 
 main figure img {width: 100%;}
@@ -72,7 +72,7 @@ main figcaption {
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #C6C6C6;
+    background-color: #DAEEE3;
 }
 
 
