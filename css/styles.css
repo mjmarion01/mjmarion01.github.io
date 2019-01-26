@@ -1,24 +1,29 @@
 header h1 {
-    color: #333333;
+    color: rgb(157, 252, 199);
 
 }
-
+nav ul{
+    padding: 0;
+}
 nav ul li {
     float: left;
     list-style-type: none;
+    color: #333333
 }
 
 nav ul li a {
     display: block;
     padding: .5rem 1rem;
-    background-color: #235423;
+    background-color: rgb(157, 252, 199);
 
 }
 
 main img {
     float: right;
+    width: 200px;
 
 }
+
 main h1{
     clear: both;
 
@@ -26,4 +31,5 @@ main h1{
 
 footer {
     text-align: center;
+    margin-top: 300px;
 }
