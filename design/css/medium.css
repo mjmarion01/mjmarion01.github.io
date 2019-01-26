@@ -20,7 +20,9 @@ header h2 {font-size: 1.5rem;}
 
 
 /*----------- MAIN --------------*/
-
+main figure.photo {
+    width: 50%;
+}
 
 
 /*----------- FOOTER --------------*/
