@@ -17,8 +17,6 @@ body {
 main {
     padding: 2% 2%;
     min-height: 5rem;
-    
-    
 
 }
 main h1 {
@@ -33,26 +31,25 @@ main h2 {
 /*----------- HEADER --------------*/
 
 header {
-    padding: .5rem 2%;
     background-color: #1f2a30;
-    align-content: center;
-    padding: 35px;
+    align-content: left;
+    padding: 20px;
+
     
 }
 
 header img {
     float: left; 
-    margin-right: 30px;
-    margin-left: 150px;
-    width: 50px;
+    margin-right: 20px;
+    width: 80px;
     
 
 }
 
 header h1 {
-    
+    padding-top: 5px;
     margin: 0; 
-    font-size: 1.3rem; 
+    font-size: 2rem; 
     color: #6bc6af;
     
     
@@ -60,7 +57,7 @@ header h1 {
 header h2 {
     margin: 0; 
     font-weight: normal; 
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
 }
 

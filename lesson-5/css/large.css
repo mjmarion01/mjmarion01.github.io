@@ -1,0 +1,31 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 1340px) {
+
+    header, nav, main, footer, .last {
+        max-width: 960px;
+        margin: auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+main figure.photo {
+    width: 33%;
+}
+
+
+/*----------- FOOTER --------------*/
+    .last {
+        position: relative;
+    }
+} /* end of media query */
