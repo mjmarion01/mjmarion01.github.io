@@ -1,0 +1,210 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Montserrat, Lato, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+    width: 100%;
+    line-height: 1;
+    padding: 10px;
+    background-color: #1f2a30;
+    height: 120px;
+}
+
+header> img {
+    float:left;
+    margin: 10px;
+    width: 80px;
+    
+}
+
+
+header h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+    color: #6bc6af;
+    
+}
+
+header h2 {
+    font-size: 14px;
+    font-weight: normal; 
+    color: white;   
+    
+}
+
+
+/*----------- NAVIGATION -------------- */
+nav {
+    background-color: #3a4d57;
+}
+
+nav button {
+    margin: 0 10px  ;
+    background-color: transparent;
+    border: none;
+    font-size: 44px;
+    color:#6bc6af;
+    display: block;
+    padding-bottom: 5px;
+
+}
+nav ul {
+    background-color: #3a4d57;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #1f2a30;
+}
+
+nav ul li:hover {
+    background-color: #6bc6af;
+
+}
+nav ul li.active a {
+
+    color: #6bc6af;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+            /*----------- MAIN -------------- */
+
+/*----------- HERO -------------- */
+main {
+    padding: 10px;
+    
+
+}
+
+main h1,h2 {
+    color: #6bc6af;
+}
+
+main h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+/* Section 1 */
+
+.sec1 {
+    margin: 0;
+    margin-bottom: -10px;
+    overflow: hidden;
+    
+    
+}
+#hero{
+    width: 100%;
+}
+
+.container {
+    background-color: #6bc6af;
+    padding: 10px;
+    top: -160px;
+    left: 10px;
+    position: relative;
+    width:70%;
+    opacity: .8;
+}
+
+.container h2 {
+    color: #3a4d57;
+    font-size: 20px;
+}
+
+.container p {
+    color: white;
+    font-size: 15px;
+}
+
+
+/*----------- 5 DAY FORECAST -------------- */
+
+.sec2 {
+    margin-top: 0;
+    display: none;
+}
+
+/*----------- ARTICLE -------------- */
+
+.sec3 {
+    margin-top: 10px;
+}
+.sec3 h2 {
+    width: 100%;
+    padding: 10px;
+}
+
+.sec3 p{
+    padding: 20px;
+    color: #3a4d57;
+    display: block;
+    
+}
+#articleimage {
+    width: 100%;
+    display: inline;
+
+}
+
+
+/*----------- FOOTER -------------- */
+
+footer {
+    background-color: #3a4d57;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+.last {
+    position: absolute;
+    bottom: 1;
+    background-color: #1f2a30;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.last> #term {
+    color: #6bc6af;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
