@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en"> 
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<title>Nimbus News</title>
+
+
+
+
+<link href="css/small.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+        <header>
+                <img src="images/logo.png" id="logo" alt="logo">   
+            <div class="headline">
+                <h1>Nimbus News</h1>
+                <h2>"Climate is what we expect, weather is what we get."" - Mark Twain</h2>  
+            </div>
+        </header>
+
+	
+
+
+    <nav class="clearfix">
+            <button class="menu" onclick="toggleMenu()">&#9776;</button>
+        <ul id="primeNav" class="hide">
+            <li ><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+<main>
+
+    <div id="gallery">
+        <figure><img src="images/clear-1000.jpg" alt="Clear Sky" placeholdername="Clear Sky" 
+            srcset="images/clear-320.jpg 320w,
+                    images/clear-740.jpg 720w,
+                    images/clear-1000.jpg 1000w"><h4>Clear Sky in the Field</h4></figure>
+
+         <figure><img src="images/snow-1000.jpg" alt="Snowy Mountains" placeholder="Clear Sky" 
+            srcset="images/snow-320.jpg 320w,
+                    images/snow-740.jpg 720w,
+                    images/snow-1000.jpg 1000w"><h4>Snow up in the Mountains</h4></figure>                 
+
+        <figure><img src="images/foggy-1000.jpg" alt="Foggy Woodlands" placeholder="Clear Sky" 
+            srcset="images/foggy-320.jpg 320w,
+                    images/foggy-740.jpg 720w,
+                    images/foggy-1000.jpg 1000w"><h4>Foggy Road</h4></figure> 
+
+       
+        <figure><img src="images/thunderstorm-1000.jpg" alt="Thunderstorm" placeholder="Clear Sky" 
+            srcset="images/thunderstorm-320.jpg 320w,
+                    images/thunderstorm-740.jpg 720w,
+                    images/thunderstorm-1000.jpg 1000w"><h4>Thunderstorm in the City</h4></figure>     
+                    
+        <figure><img src="images/sunny-1000.jpg" alt="Sunny Day" placeholder="Clear Sky" 
+            srcset="images/sunny-320.jpg 320w,
+                    images/sunny-740.jpg 720w,
+                    images/sunny-1000.jpg 1000w"><h4>Sunny day in the Field</h4></figure>                       
+ 
+        <figure><img src="images/cloudy-1000.jpg" alt="Sunny Day" placeholder="Clear Sky" 
+            srcset="images/cloudy-320.jpg 320w,
+                    images/cloudy-740.jpg 720w,
+                    images/cloudy-1000.jpg 1000w"><h4>Cloudy day </h4></figure>                       
+
+
+    </div>
+
+    
+        
+
+</main>
+
+
+    <footer>
+            
+       
+        <div class="contact">   
+            <h2>Contact</h2><br> 
+            <h5>Address:</h5>
+            <p> 212 B. Enriquez Street <br> Obando, Bulacan 3021</p><br>
+        </div>
+        <div class="contact2">   
+            <h5>Email:</h5>
+            <p>pat18018@byui.edu</p><br>
+
+            <h5>Phone:</h5>
+            <p>+ 63 916 821 7668</p><br>
+        </div> 
+        
+        
+       
+    </footer>
+
+    <div class="last">
+            &copy; MJ Marion Patio 2019  <br>
+            <span id="date"></span> <br>
+          
+            <a href="#" id="term">Terms of Use</a>
+        </div>
+<script src="js/currentdate.js"></script>
+<script src="js/script.js"></script>
+<script src="js/windchill.js"></script>
+</body>
+</html>

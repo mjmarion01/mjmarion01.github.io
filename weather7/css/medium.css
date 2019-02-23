@@ -1,0 +1,117 @@
+
+@media only screen and (min-width: 740px) {
+
+
+/*----------- BODY --------------*/
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
+/*----------- HEADER --------------*/
+header h1 {
+    font-size: 35px;
+}
+
+header h2{
+    font-size: 20px;
+}
+
+
+/*----------- NAVIGATION --------------*/
+nav button {
+    display: none;
+}
+
+nav {
+    background-color: #3a4d57;
+    }
+
+nav ul li {
+    float: left;
+    padding: 10px;
+    display: block;
+    
+}
+nav ul li a {
+    border-top: none;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+/*----------- MAIN --------------*/
+ 
+
+
+.sec2 {
+    display: block;
+    width: 100%;
+   
+} 
+
+.sec2 .day {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+.sec2 .day > div {
+    flex: 1;
+   
+}
+
+ h5 {
+    font-size: 20px;
+    background-color: #3a4d57;
+    padding: 10px;
+    color: #e6e4e4;
+}
+
+.day ul > li {
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 2;
+    background-color: #e6e4e4;
+
+}
+/*----------- ARTICLE --------------*/
+.sec3
+
+#articleimage {
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    display: flex;
+    
+}
+footer h2 {
+    padding: 10px;
+}
+
+footer .contact, .contact2 {
+    flex: 1;
+}
+
+footer > .contact {
+    margin-left: 30px;
+}
+
+.last {
+    color: white;
+    position: relative;
+
+}
+
+/*----------- FOOTER --------------*/
+
+} /* end of media query */

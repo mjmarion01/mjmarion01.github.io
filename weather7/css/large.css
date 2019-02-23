@@ -1,0 +1,40 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 1340px) {
+
+    header, nav, main, footer, .last {
+        max-width: 960px;
+        margin: auto;
+    }
+
+/*----------- BODY --------------*/
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+nav button {
+    display: none;
+}
+nav ul li a {
+    border-top: none;
+}
+
+
+/*----------- MAIN --------------*/
+main figure.photo {
+    width: 33%;
+}
+
+
+/*----------- FOOTER --------------*/
+    .last {
+        position: relative;
+    }
+} /* end of media query */
