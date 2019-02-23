@@ -95,7 +95,6 @@ nav ul.hide {
 
 #gallery {
     display: grid;
-    grid-template-columns: 1fr;
 
 }
 
