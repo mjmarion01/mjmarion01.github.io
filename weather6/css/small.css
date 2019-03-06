@@ -116,6 +116,7 @@ main h1 {
 /* Section 1 */
 
 .sec1 {
+    position: relative;
     margin: 0;
     margin-bottom: -10px;
     overflow: hidden;
@@ -129,9 +130,9 @@ main h1 {
 .container {
     background-color: #6bc6af;
     padding: 10px;
-    top: -160px;
-    left: 10px;
-    position: relative;
+    top: 20px;
+    left: 20px;
+    position: absolute;
     width:70%;
     opacity: .8;
 }
@@ -150,6 +151,7 @@ main h1 {
 /*----------- 5 DAY FORECAST -------------- */
 
 .sec2 {
+    position: relative;
     margin-top: 0;
     display: none;
 }
