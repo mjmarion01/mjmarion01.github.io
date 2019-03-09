@@ -1,31 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* -------- HEADER ------ #3a4d57; */
 header h1 {
     color: rgb(157, 252, 199);
+    background-color: #3a4d57;
+    padding: 20px;
+    margin: 0;
 
 }
+
+header h2 {
+    background-color: #1f2a30;
+    margin: 0;
+    padding: 20px;
+    color: grey;
+
+}
+
+/* -------- Navigation ------ */
 nav ul{
     padding: 0;
+    margin: 0;
+    background-color: rgb(157, 252, 199);
+    padding: 10px;
 }
 nav ul li {
-    float: left;
     list-style-type: none;
-    color: #333333
+    color: #333333;
+    display: inline-block;
 }
 
 nav ul li a {
     display: block;
     padding: .5rem 1rem;
-    background-color: rgb(157, 252, 199);
+    text-decoration: none;
+    color: #3a4d57;
+} 
 
+nav ul li.active {
+    background-color: #3333332a;  
 }
 
+nav ul li:hover {
+    background-color: #333333;
+}
+
+
+/* -------- Main ------ */
+
+main {
+    padding-left: 50px;
+}
 main img {
     float: right;
     width: 200px;
+    padding-right: 50px;
+    margin: 0;
 
 }
 
 main h1{
     clear: both;
+    
 
 }
 
